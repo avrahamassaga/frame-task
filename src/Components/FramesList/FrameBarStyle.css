@@ -3,16 +3,18 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    scrollbar-width: inherit;
+    scrollbar-color: rgb(18, 30, 57) orange;
 }
 .framePointer{
     margin: 15px;
-    border: 2px solid gainsboro;
+    border: 2px solid rgb(227, 177, 101);
     border-radius: 15px;
     padding: 25px;
 }
 
 .framePointer:hover{
-    background-color: rgb(202, 236, 250);
+    background-color: rgb(167, 167, 167);
 }
 .scroll-title{
     display: none;
