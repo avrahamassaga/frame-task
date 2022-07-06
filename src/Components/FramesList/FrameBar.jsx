@@ -7,11 +7,11 @@ export default function FrameBar(props) {
   return (
     <div>
         <br />
-        <p>Chose yout frame:</p>
+        <p>Choose your frame:</p>
         <div className="FrameListBox">
         {frameList.map((val,i)=>{
             return(
-                <div className="framePointer" key={i} onClick={()=>selectFrame(val.img)}>
+                <div className="framePointer" key={i} onClick={()=>val.name !== 'none' ?selectFrame(val.img): selectFrame(null)}>
                     <img src={val.img} alt="feameImg" className='Frame-icons' />
                     <p>{val.name}</p>
                 </div>

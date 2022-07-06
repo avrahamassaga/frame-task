@@ -5,6 +5,7 @@ import fire from '../../assets/frames/Ring+of+Fire.png'
 import pocporn from '../../assets/frames/The+Movies.png'
 import magical from '../../assets/frames/Magical.png'
 
-const frameList = [{name:'Cute bear', img: bear},{name:'Golden Brush', img:goldBrush},{name:'Olive Branch', img:olive},{name:'Ring of Fire', img:fire},{name:'Pocporn Time', img:pocporn},{name:'Magical', img:magical}];
+
+const frameList = [{name: 'none',img:'https://joesbutchershop.com/cancel-icon.png'},{name:'Cute bear', img: bear},{name:'Golden Brush', img:goldBrush},{name:'Olive Branch', img:olive},{name:'Ring of Fire', img:fire},{name:'Pocporn Time', img:pocporn},{name:'Magical', img:magical}];
 
 export{frameList}
