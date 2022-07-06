@@ -1,0 +1,14 @@
+.avatar-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.framecover{
+    position: absolute;
+   
+}
+.frame-img{
+    width: 250px;
+}
