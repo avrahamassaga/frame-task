@@ -1,11 +1,12 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import './ProfileImg.css'
 import { avatar } from './ProfileData'
 export default function ProfileImg(props) {
-  const {SelectedFrame} =props;
+  const {imgSize} =props;
+  
   return (
-    <div >
-        <img className='Avater-img' src={avatar} alt="profile img" />
+    <div className='avatar-Container'>
+        <img className='Avater-img' src={avatar} alt="profile img" style={{width: `${imgSize}px`}}/>
     </div>
   )
 }

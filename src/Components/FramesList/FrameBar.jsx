@@ -4,19 +4,22 @@ import './FrameBarStyle.css'
 export default function FrameBar(props) {
     const {selectFrame}= props;
 
-    function steFrame(val){
-        selectFrame(val)
-    }
   return (
-    <div className='FrameListBox'>{
-        frameList.map((val,i)=>{
+    <div>
+        <br />
+        <p>Chose yout frame:</p>
+        <div className="FrameListBox">
+        {frameList.map((val,i)=>{
             return(
-                <div className="framePointer" key={i} onClick={()=>steFrame(val.img)}>
+                <div className="framePointer" key={i} onClick={()=>selectFrame(val.img)}>
                     <img src={val.img} alt="feameImg" className='Frame-icons' />
-                    <h2>{val.name}</h2>
+                    <p>{val.name}</p>
                 </div>
             )
         })
-        }</div>
+        }
+        </div>
+        <p className='scroll-title'>&lt; &lt; Scroll &gt; &gt;</p>
+    </div>
   )
 }
