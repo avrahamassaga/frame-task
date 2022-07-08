@@ -1,5 +1,6 @@
 
 .Avater-img{
     border-radius: 50%;
+    transition: width 1ms, higth 1ms;
     object-fit: cover;
 }

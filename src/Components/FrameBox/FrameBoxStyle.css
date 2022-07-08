@@ -3,8 +3,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .framecover{
     position: absolute;
     min-width: fit-content;
+    transition: width 1s, higth 1s;
 }
