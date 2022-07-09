@@ -1,12 +1,18 @@
-.avatar-container{
+.frameBox-container{
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    margin-bottom: 150px;
+    margin-top: 110px;
+}
+.avatar-container{
+    position: absolute;
 }
 .framecover{
     position: absolute;
     min-width: fit-content;
     transition: width 1s, higth 1s;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

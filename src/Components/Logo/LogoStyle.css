@@ -13,4 +13,8 @@
         justify-content: center;
         margin-bottom: 50px;
     }
+    .logo-container>img{
+        width: 160px;
+        margin-bottom: 50px;
+    }
 }

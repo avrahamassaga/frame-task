@@ -6,7 +6,6 @@ export default function SizeControl(props) {
   return (
     <div className='controlPanel-container'>
         <br />
-        <h3>Size control</h3>
         <div className="contolPanel">
             <button onClick={()=>ChencgeSize(imgSize,setImgSize,1)}>+</button>
             <h2 className='size-number'>{imgSize+'px'}</h2>

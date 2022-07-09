@@ -5,13 +5,13 @@
     flex-wrap: wrap;
     scrollbar-width: inherit;
     scrollbar-color: rgb(18, 30, 57) orange;
-    background-color: white;
 }
 .framePointer{
     margin: 15px;
     border: 2px solid rgb(227, 177, 101);
     border-radius: 15px;
     padding: 25px;
+    background-color: white;
 }
 
 .framePointer:hover{
